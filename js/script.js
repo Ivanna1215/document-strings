@@ -47,3 +47,23 @@ console.log (text.slice(1,4));
 
 
 } 
+
+function freelancer () {
+    let fls = 'freelancer';
+    let text = `Hello! I am a ${fls}!`;
+    console.log (text);
+}
+function freelanc () {
+    let text = 'freelancer';
+    console.log(text.indexOf ('n'));
+    let lastSymbol = text [6];
+    console.log (lastSymbol);
+    let text2 = 123+ '456';
+    console.log (text2);
+    console.log (text.toUpperCase());
+    console.log (text.includes ('cer'));
+    console.log (text.startsWith ('ela'));
+    console.log (text.slice(3,6));
+    console.log (text.includes ('lan',4));
+
+}
