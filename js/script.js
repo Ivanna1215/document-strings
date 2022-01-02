@@ -7,11 +7,18 @@ function guestList() {
     Mary
     `;
     console.log (guestList);
+let guest2List = 'Guests:\n Alex\nIvanna\nOxana\nNazar';
+console.log (guest2List);
+
 }
 
 function getAllSymbol () {
     for (let newString of 'IwillSucceed') {
 console.log (newString);
+
+// for (let Ivanna of 'Max' ) {
+//     console.log (Ivanna);
+// }
     }
 }
 
@@ -44,6 +51,7 @@ console.log (text.toUpperCase());
 console.log (text.toLowerCase());
 console.log (text.toUpperCase());
 console.log (text.slice(1,4));
+console.log ( 'Hello'[0].toLowerCase());
 
 
 } 
@@ -65,5 +73,19 @@ function freelanc () {
     console.log (text.startsWith ('ela'));
     console.log (text.slice(3,6));
     console.log (text.includes ('lan',4));
+
+}
+function ucFirst() {
+    let str = 'vasyl';
+    // str = 'V'+ str [1] + str [2] + str [3] + str [4];
+    // console.log (str);
+   let newStr = str [0].toUpperCase()+str.slice(1);
+   console.log (newStr);
+   let word = 'ivanna';
+   let newWord = word [0].toUpperCase()+word.slice(1);
+   console.log(newWord);
+   let work = 'alex';
+   let newwork = work[0].toUpperCase()+work.slice(1);
+   console.log (newwork);
 
 }
