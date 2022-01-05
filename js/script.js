@@ -28,9 +28,9 @@ function СhangeTheCase () {
 }
 function someSum (a,b){
     return a + b;
-
 }
 console.log (`Sum: ${someSum(4,7)}`);
+
 function someString () {
     let text = 'Hello!'
     console.log (text.length);
@@ -88,4 +88,56 @@ function ucFirst() {
    let newwork = work[0].toUpperCase()+work.slice(1);
    console.log (newwork);
 
+}
+
+function newSearch () {
+    let str = 'I want to go to Budapest for the weekend';
+    let target = 'Budapest';
+    let pos = 0;
+while (true) {
+  let foundPos = str.indexOf(target, pos);
+  if (foundPos == -1) break;
+
+  alert( `result ${foundPos}` );
+  pos = foundPos + 1; 
+    }
+}
+
+function search () {
+    let str = 'I want to go to sea';
+    
+    console.log (str.indexOf ('want'));
+}
+
+function controlsearch () {
+    let str = 'I really want to be slim';
+    let target = 'slim';
+    let pos = 0;
+    while (true) {
+        let search = str.indexOf(target,pos +1);
+        if ( search==-1) break;
+        alert (`Result :${search}`)
+        pos = search + 1; 
+    }
+
+
+}
+
+
+
+function myFunc(a,b) {
+    const result = myFunc(3, 5);
+return a + b;
+}
+
+function happyString () {
+    let str = '';
+    for (let i = 1; i<=8;i++) {
+        for (let j = 1; j<=8;j++)
+         str = str + '*';
+     console.log (str);
+     str = '';
+    
+    }
+    
 }
